@@ -53,7 +53,7 @@ class ClCamera extends Component {
             const prefix = "cloudy_pwa_";
             const rs = Math.random().toString(36).substr(2, 5);
             localStorage.setItem(`${prefix}${rs}`, this.state.capturedImage);
-            alert('Image saved locally, it will be uploaded to your Cloudinary media library onde internet connection is detected');
+            alert('Image saved locally, it will be uploaded to your Cloudinary media library when internet connection is detected');
             this.discardImage();
         }else{
             this.setState({'uploading': true});
