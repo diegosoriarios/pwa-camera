@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Webcam } from '../../webcam';
 import './ClCamera.css';
 import axios from 'axios';
-import { isRejected } from 'q';
 
 class ClCamera extends Component {
     constructor(){
